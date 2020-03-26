@@ -23,6 +23,10 @@ public class Main {
         auto.creerTransition(e2,e3,'b');
         auto.creerTransition(e3,e3,'b');
         auto.creerTransition(e3,e4,'b');
+
+        //debut
+        auto.setEtatInitial(e1);
+        System.out.println(auto.analyseMot("aba"));
     }
 
 }
