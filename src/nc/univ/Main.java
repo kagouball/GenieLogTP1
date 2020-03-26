@@ -26,7 +26,7 @@ public class Main {
 
         //debut
         auto.setEtatInitial(e1);
-        System.out.println(auto.analyseMot("aba"));
+        System.out.println(auto.analyseMot("aaabbbbb"));
     }
 
 }
