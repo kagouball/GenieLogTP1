@@ -32,6 +32,7 @@ public class Transition {
     }
 
     public char getSymbole() {
+        System.out.println("Je check le:"+this.symbole);
         return symbole;
     }
 }

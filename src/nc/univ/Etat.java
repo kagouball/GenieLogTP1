@@ -24,6 +24,7 @@ public class Etat {
             }
             i++;
         }
+
         return trouve;
     }
 }
