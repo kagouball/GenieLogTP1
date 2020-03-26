@@ -6,10 +6,6 @@ public class Automate {
     private Etat etatInitial;
     private ArrayList<Etat> listEtats = new ArrayList<Etat>();
 
-    public Automate(){
-
-    }
-
     public void setEtatInitial(Etat e){
         this.etatInitial = e;
     }
@@ -19,7 +15,7 @@ public class Automate {
     }
 
     public void creerTransition(Etat depart, Etat arrive, char s){
-        Transition newTransition = new Transition(depart,arrive,s);
+        Transition newTransition = new Transition(arrive,s);
         depart.addTransition(newTransition);
     }
 

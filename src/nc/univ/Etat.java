@@ -5,10 +5,6 @@ import java.util.ArrayList;
 public class Etat {
     protected ArrayList<Transition> transitions = new ArrayList<Transition>();
 
-    public Etat(){
-
-    }
-
     public void addTransition(Transition t){
         transitions.add(t);
     }
