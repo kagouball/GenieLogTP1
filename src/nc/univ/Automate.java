@@ -24,7 +24,7 @@ public class Automate {
     }
 
     public boolean analyseMot(String mot){
-
+        return etatInitial.traiterMot(mot);
     }
 
 }
