@@ -3,7 +3,7 @@ package nc.univ;
 import java.util.ArrayList;
 
 public class Etat {
-    private ArrayList<Transition> transitions;
+    private ArrayList<Transition> transitions = new ArrayList<Transition>();
 
     public Etat(){
 

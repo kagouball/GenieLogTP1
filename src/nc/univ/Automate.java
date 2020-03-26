@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Automate {
     private Etat etatInitial;
-    private ArrayList<Etat> listEtats;
+    private ArrayList<Etat> listEtats = new ArrayList<Etat>();
 
     public Automate(){
 
