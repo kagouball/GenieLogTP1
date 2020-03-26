@@ -14,6 +14,7 @@ public class Etat {
     }
 
     public boolean traiterMot(String mot){
+        System.out.println("Je traite:"+mot);
         boolean trouve = false;
         int i = 0;
         while(!trouve && i<transitions.size()){
